@@ -14,14 +14,34 @@ var crtx = new Cortex();
 type: Boolean<br/>
 Returns true if at least one element is matched. Returns false otherwise.
 
+```javascript
+var a = crtx.elExists('#selector');
+console.log(a);
+```
+
 #### elCount(selector);
 type: Integer<br/>
 Returns the number of matched elements.
+
+```javascript
+var a = crtx.elCount('div');
+console.log(a);
+```
 
 #### doctype();
 type: String<br/>
 Returns a doctype declaration of the document.
 
+```javascript
+var a = crtx.doctype();
+console.log(a);
+```
+
 #### htmlVersion();
 type: Integer/Float<br/>
 Returns the version of the html document.
+
+```javascript
+var a = crtx.htmlVersion();
+console.log(a);
+```
