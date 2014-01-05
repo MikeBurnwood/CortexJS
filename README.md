@@ -11,17 +11,17 @@ var crtx = new Cortex();
 ## Documentation
 
 #### elExists(selector);
-type: Boolean
+type: Boolean<br/>
 Returns true if at least one element is matched. Returns false otherwise.
 
 #### elCount(selector);
-type: Integer
+type: Integer<br/>
 Returns the number of matched elements.
 
 #### doctype();
-type: String
+type: String<br/>
 Returns a doctype declaration of the document.
 
 #### htmlVersion();
-type: Integer/Float
+type: Integer/Float<br/>
 Returns the version of the html document.
