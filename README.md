@@ -17,6 +17,7 @@ Returns true if at least one element is matched. Returns false otherwise.
 ```javascript
 var a = crtx.elExists('#selector');
 console.log(a);
+// Example: true
 ```
 
 #### elCount(selector);
@@ -26,6 +27,7 @@ Returns the number of matched elements.
 ```javascript
 var a = crtx.elCount('div');
 console.log(a);
+// Example: 6
 ```
 
 #### doctype();
@@ -35,6 +37,7 @@ Returns a doctype declaration of the document.
 ```javascript
 var a = crtx.doctype();
 console.log(a);
+// Example: "<!DOCTYPE html>"
 ```
 
 #### htmlVersion();
@@ -44,4 +47,5 @@ Returns the version of the html document.
 ```javascript
 var a = crtx.htmlVersion();
 console.log(a);
+// Example: 4.01
 ```
